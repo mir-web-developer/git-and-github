@@ -1,1 +1,2 @@
-Mirjaxo
+Mirjaxon
+Djalilov
