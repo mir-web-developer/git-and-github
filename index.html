@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h2 class="car"></h2>
+    <h2 class="car2"></h2>
+    <script>
+        class Car {
+            constructor(speed){
+                this.speed = speed
+            }
+
+            viewSpeed(){
+                return `My speed is ${this.speed} km p/h`
+            }
+        }
+
+        let car1 = new Car(200)
+
+        document.querySelector('.car').innerText = car1.viewSpeed()
+ 
+        car1.speed = 300
+        document.querySelector(".car2").innerHTML=car1.viewSpeed()
+    </script>
+  </body>
+  </html>
+
