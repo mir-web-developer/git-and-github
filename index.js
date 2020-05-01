@@ -1,4 +1,0 @@
-
-Mirjaxon
-djalilov
-Mirxodilovich
